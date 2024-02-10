@@ -23,9 +23,14 @@
 
 /* Rest of your existing CSS */
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(ejemplo.jpg);
+    background-image: linear-gradient(
+
+        0deg,
+        rgb(0, 0, 0, 0.5),
+        rgb(0, 0, 0, 0.5)
+
+
+    ), url(ejemplo.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
